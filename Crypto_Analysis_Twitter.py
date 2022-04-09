@@ -25,7 +25,7 @@ negative_sentiment_scores = [] # This list holds the percentage of tweets with n
 limit = 50 # This is the number of tweets to scrape in each iteration
 token = str(input('Coin name to look with on twitter: ')) # This means the name of the currenct like BTC,ETH,LTC to be looked out for on Twitter
 currency = str(input('Currency name: ')) # Name of the currency to be looked out for on Binance like BTCUSDT,ETHUSDT etc.
-BEARER_TOKEN="AAAAAAAAAAAAAAAAAAAAAHH9UAEAAAAA5sA0o6M6OjrRNJ0pNpHKypL%2B%2Bm8%3D3KAHM2kj6PEG0QCNrzMQnacky5IcFHzJYoLhyF2cPAWypKmTbZ" # Twitter api bearer token
+BEARER_TOKEN="I dont want to publically post my token, so if you wish to use this app you need to create your own" # Twitter api bearer token
 in_position = False
 client = Client('HysmriB8kLQnMzVqRTjnTpCAFZOrJLx4pxT4Ch3a852bECoNgXtmWkGtxubtSbZK','4juSFo7kh4Kcb0DwP2ds5fAh5ilyGVYUaBnXfCGCoale4ns1tCxtBffFOgIM36g0') # Creating the object for binance class to scrape then prices
 # This function creates the header with bearer token, header helps while sending a request for data to twitter server
